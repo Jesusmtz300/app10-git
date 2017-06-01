@@ -1,0 +1,432 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>CBTis16</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+
+<script src="phonegap.js"></script><!-- necesario*/ -->
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head> 
+<body onLoad="MM_preloadImages('imagenes/imagen13.jpg','imagenes/imagen15.jpg','monumento2.jpg','museo1.jpg','Atlixco.png','imagenes/instalcion.JPG','imagenes/federal.PNG','imagenes/tallermen.jpg','imagenes/laboratoriocomputo.jpg','imagenes/tallerelectrico.jpg','imagenes/logodgti.jpg','imagenes/reglas.JPG')"> 
+ <div data-role="page"id="Principal" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+     <h1>CBTis N.16</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+    <div>
+       <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Carreras Tecnicas</h2>
+           </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+           <a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Plantel</h2>
+           </a>
+         </li>
+          <li class="ui-first-child ui-last-child">
+           <a href="#page4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Docente</h2>
+           </a>
+         </li>
+          <li class="ui-first-child ui-last-child">
+           <a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Estudiantes</h2>
+           </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+           <a href="#page6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Becas</h2>
+           </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+           <a href="#page7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Conoce más...</h2>
+           </a>
+         </li>
+          <li class="ui-first-child ui-last-child">
+           <a href="#page8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Inf. Sobre App</h2>
+           </a>
+         </li>
+      </ul>
+      </div>
+      </div>
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/cbtis2.jpg" alt="cbtis2" title="cbtis2" id="wows1_0"/></li>
+		<li><img src="data1/images/cbtis3.jpg" alt="cbtis3" title="cbtis3" id="wows1_1"/></li>
+		<li><img src="data1/images/cbtis4.jpg" alt="cbtis4" title="cbtis4" id="wows1_2"/></li>
+		<li><img src="data1/images/cbtis5.jpg" alt="cbtis5" title="cbtis5" id="wows1_3"/></li>
+		<li><img src="data1/images/cbtis6.jpg" alt="cbtis6" title="cbtis6" id="wows1_4"/></li>
+		<li><img src="data1/images/cbtis7.jpg" alt="cbtis7" title="cbtis7" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/cbtis8.jpg" alt="wow slider" title="cbtis8" id="wows1_6"/></a></li>
+		<li><img src="data1/images/cbtis9.jpg" alt="cbtis9" title="cbtis9" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="cbtis2"><span><img src="data1/tooltips/cbtis2.jpg" alt="cbtis2"/>1</span></a>
+		<a href="#" title="cbtis3"><span><img src="data1/tooltips/cbtis3.jpg" alt="cbtis3"/>2</span></a>
+		<a href="#" title="cbtis4"><span><img src="data1/tooltips/cbtis4.jpg" alt="cbtis4"/>3</span></a>
+		<a href="#" title="cbtis5"><span><img src="data1/tooltips/cbtis5.jpg" alt="cbtis5"/>4</span></a>
+		<a href="#" title="cbtis6"><span><img src="data1/tooltips/cbtis6.jpg" alt="cbtis6"/>5</span></a>
+		<a href="#" title="cbtis7"><span><img src="data1/tooltips/cbtis7.jpg" alt="cbtis7"/>6</span></a>
+		<a href="#" title="cbtis8"><span><img src="data1/tooltips/cbtis8.jpg" alt="cbtis8"/>7</span></a>
+		<a href="#" title="cbtis9"><span><img src="data1/tooltips/cbtis9.jpg" alt="cbtis9"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+    <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+      <h4>Jorge Jesus Vazquez Martinez</h4>
+      <h4> Proyecto Final </h4>
+        <img src="res/android/mdpi.png" width="56" height="46">
+   
+</div>
+</div>      
+<div data-role="page"id="page2" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Carreras que ofrece.</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+       <div ><h2 align="justify">
+       <div data-role="collapsible" data-content-theme="false">
+       <h1>Mecanica Industrial.(COMPETENCIAS PROFESIONALES)</h1>
+         <div>
+          <p>&nbsp;</p>
+          <p align="center"><img src="imagenes/mecanicain.jpg" width="100%" height="100%" align="middle">                   
+         </div>
+      </div>
+         <p>TÉCNICO EN MECÁNICA INDUSTRIAL</p>
+         <p>Profesionista que da mantenimiento a los sistemas de transmisión de potencia utilizando las máquinas herramientas convencionales, de control numérico, máquinas de soldar con arco eléctrico y oxigas auxiliándose de los procesos de ajuste de piezas mecánicas.</p>
+         <p align="justify">&nbsp;</p>
+         <p> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','imagenes/tallermen.jpg',1)"><img src="imagenes/tallermecanica.jpg" width="100%" height="100%" id="Image19"></a></p>
+       </div>
+       </div>
+       <div data-role="main" class="ui-content">
+       <div ><h2 align="justify">
+       <div data-role="collapsible" data-content-theme="false">
+       <h1>Programacion.(COMPETENCIAS PROFESIONALES)</h1>
+         <div>
+          <p>&nbsp;</p>
+          <p align="center"><img src="imagenes/programa.jpg" width="100%" height="100%" align="middle">                   
+         </div>
+      </div>
+         <p>TÉCNICO EN PROGRAMACIÓN</p>
+         <p>Persona con conocimientos, habilidades y actitudes, capaz de ingresar a empresas de desarrollo de software, diseño gráfico, mantenimiento, outsourcing.</p>
+         <p align="justify">&nbsp;</p>
+         <p>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image57','','imagenes/laboratoriocomputo.jpg',1)"><img src="imagenes/lc2.jpg" width="100%" height="100%" id="Image57"></a> </p>
+       </div>
+       </div>
+        <div data-role="main" class="ui-content">
+       <div ><h2 align="justify">
+       <div data-role="collapsible" data-content-theme="false">
+       <h1>Logistica.(COMPETENCIAS PROFESIONALES)</h1>
+         <div>
+          <p>&nbsp;</p>
+          <p align="center"><img src="imagenes/logis.jpg" width="100%" height="100%" align="middle">                   
+         </div>
+      </div>
+         <p>TÉCNICO EN LOGISTICA</p>
+         <p>Ofrece las competencias profesionales que permiten al estudiante realizar actividades dirigidas a la administración de bienes, planificando los suministros destinados al almacenamiento de manera manual y electrónica, la organización de los nodos logísticos para el transporte de mercancías, así como proveer los servicios y atención al cliente sobre los movimientos y los costos de la cadena logística.</p>
+         <p align="justify">&nbsp;</p>
+         <p> <img src="imagenes/cbtis8.jpg" width="100%" height="100%" id="Image16"></p>
+       </div>
+       </div>
+          <div data-role="main" class="ui-content">
+       <div ><h2 align="justify">
+       <div data-role="collapsible" data-content-theme="false">
+       <h1>Elictricidad.(COMPETENCIAS PROFESIONALES)</h1>
+         <div>
+          <p>&nbsp;</p>
+          <p align="center"><img src="imagenes/electri.JPG" width="100%" height="100%" align="middle">                   
+         </div>
+      </div>
+         <p>TÉCNICO EN ELECTRICIDAD</p>
+         <p>La carrera de Técnico en Electricidad permite al estudiante sustentar la demanda de ocupación de Técnicos Electricistas en el sector productivo y de servicios, capaz de diseñar y realizar instalaciones eléctricas residenciales y comerciales, así como proporcionar mantenimiento a máquinas eléctricas.</p>
+         <p align="justify">&nbsp;</p>
+         <p> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image70','','imagenes/tallerelectrico.jpg',1)"><img src="imagenes/tallerelectri.jpg" width="100%" height="100%" id="Image70"></a></p>
+       </div>
+       </div>
+       
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Jorge Jesus Vazquez Martinez</h4>
+        <h4>Proyecto Final</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+      
+<div data-role="page"id="page3" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Plantel.</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+       <div>
+         <p><strong>MISIÓN</strong></p>
+         <p>Formar personas con conocimientos tecnológicos en las áreas industrial, comercial y de servicios, a través de la preparación de profesionales técnicos y bachilleres, con el fin de contribuir al desarrollo sustentable del país.</p>
+         <p> </p>
+         <p><strong>VISIÓN</strong></p>
+         <p>Ser una institución que proporcione una formación integral y pertinente de acuerdo a las exigencias derivadas de la competitividad mundial y el entorno y vocación local, además de tener la flexibilidad para satisfacer los intereses, aspiraciones y posibilidades de la población que demanda este nivel educativo en nuestro plantel.</p>
+         <br>
+       
+         <div data-role="collapsible" data-content-theme="false">
+           <h3 align="center">Instalaciones.</h3>
+           <div>
+             <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/instalcion.JPG',1)"><img src="imagenes/instala.jpg" width="100%" height="100%" id="Image21"></a></p>
+           </div>
+         </div>
+         <div data-role="collapsible" data-content-theme="false">
+        <h3 align="center">Ubicacion.</h3>
+           <div>
+             <div data-role="main" class="ui-content" align="center">
+               <div style="width:40%;">
+                 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+                   <li class="ui-first-child ui-last-child">
+                     <h2><a href="https://www.google.com.mx/maps/place/CBTis+No+016/@18.9034483,-98.4265976,17z/data=!3m1!4b1!4m5!3m4!1s0x85cfb47405555555:0x19bb49f598a8846f!8m2!3d18.9034483!4d-98.4244089" target="_self" data-role="button">Mapa </a></h2>
+                   </li>
+                 </ul>
+</div>
+               <div style="width:40%;"> </div>
+             </div>
+           </div>
+         </div>
+       </div>
+      </div>
+      
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Jorge Jesus Vazquez Martinez</h4>
+        <h4>Proyecto Final</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+      </div> 
+<div data-role="page"id="page4" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Docente</h1>
+      </div>
+     <div>
+     <div data-role="collapsible" data-content-theme="false">
+        <h3 align="center">Calendario</h3>
+           <div>
+             <div data-role="main" class="ui-content" align="center">
+               <div style="width:40%;">
+                 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+                   <li class="ui-first-child ui-last-child">
+                     <h2><a href="https://www.gob.mx/cms/uploads/attachment/file/97534/Calendario_escolar_200_dias.pdf" target="_self" data-role="button">SEP </a></h2>
+                   </li>
+                 </ul>
+</div>
+               <div style="width:40%;"> </div>
+             </div>
+           </div>
+         </div>
+     </div>
+       <div>
+     <div data-role="collapsible" data-content-theme="false">
+        <h3 align="center">Calendario</h3>
+           <div>
+             <div data-role="main" class="ui-content" align="center">
+               <div style="width:40%;">
+                 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+                   <li class="ui-first-child ui-last-child">
+                     <h2><a href="https://drive.google.com/file/d/0B-Yz_u3SAFZIak52YVNsODdfTDg/view" target="_self" data-role="button">Actividad </a></h2>
+                   </li>
+                 </ul>
+</div>
+               <div style="width:40%;"> </div>
+             </div>
+           </div>
+         </div>
+     </div>
+         <div>
+     <div data-role="collapsible" data-content-theme="false">
+        <h3 align="center">Programa de estudios</h3>
+           <div>
+             <div data-role="main" class="ui-content" align="center">
+               <div style="width:40%;">
+                 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+                   <li class="ui-first-child ui-last-child">
+                     <h2><a href="http://cosdac.sems.gob.mx/portal/index.php/estudiar-trabajar/programas-de-estudios-vigentes" target="_self" data-role="button">Planes </a></h2>
+                   </li>
+                 </ul>
+</div>
+               <div style="width:40%;"> </div>
+             </div>
+           </div>
+         </div>
+     </div>
+      <div>
+     <div data-role="collapsible" data-content-theme="false">
+        <h3 align="center">SISEEMS</h3>
+           <div>
+             <div data-role="main" class="ui-content" align="center">
+               <div style="width:40%;">
+                 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+                   <li class="ui-first-child ui-last-child">
+                     <h2><a href="http://www.siseems.sems.gob.mx/produccion/" target="_self" data-role="button">Registro </a></h2>
+                   </li>
+                 </ul>
+</div>
+               <div style="width:40%;"> </div>
+             </div>
+           </div>
+         </div>
+     </div>
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Jorge Jesus Vazquez Martinez</h4>
+        <h4>Proyecto Final</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+</div> 
+
+<div data-role="page"id="page5" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Reglamento.</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image50','','imagenes/reglas.JPG',1)"><img src="imagenes/normasp.jpg" width="100%" height="100%" id="Image50"></a> </div>
+      
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Jorge Jesus Vazquez Martinez</h4>
+        <h4>Proyecto Final</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+<div data-role="page"id="page6" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Becas.</h1>
+      </div>
+      <div>
+      <h2> En esta sección se describen los diferentes tipos de becas que otorga la Secretaría de Educación Pública (SEP) a través de la Subsecretaría de Educación Media Superior (SEMS). (Toca la imagen para ver las becas. </h2>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/federal.PNG',1)"><img src="imagenes/estatal.PNG" width="100%" height="100%" id="Image17"></a> </div>
+     
+             <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Jorge Jesus Vazquez Martinez</h4>
+        <h4>Proyecto Final</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+</div>
+            
+</div>
+
+      </div> 
+     </div>
+     <div data-role="page"id="page7" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Como nos relacionamos</h1>
+      </div>
+      <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image44','','imagenes/logodgti.jpg',1)"><img src="imagenes/dgeti.jpeg" width="100%" height="100%" id="Image44"></a>
+<h4> Bachillerato Tecnológico, modalidad escolarizada </h4>
+      <p> La DGETI coordina Centros Educativos a Nivel Nacional:</p>
+      <p>*288 Centros de Bachillerato Tecnológico Industrial y de Servicios (CBTis)        </p>
+      <p>*168 Centros de Estudios Tecnológicos Industrial y de Servicios (CETis)</p>
+      <p> *812 Colegios de Estudios Científicos y Tecnológicos (CECyTES), que operan bajo un sistema descentralizado. </p>
+      </div>
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/instala.jpg" alt="instala" title="instala" id="wows2_0"/></li>
+		<li><img src="data2/images/instalcion.jpg" alt="instalcion" title="instalcion" id="wows2_1"/></li>
+		<li><img src="data2/images/laboratoriocomputo.jpg" alt="laboratoriocomputo" title="laboratoriocomputo" id="wows2_2"/></li>
+		<li><img src="data2/images/lc2.jpg" alt="lc2" title="lc2" id="wows2_3"/></li>
+		<li><img src="data2/images/logis.jpg" alt="logis" title="logis" id="wows2_4"/></li>
+		<li><img src="data2/images/logodgti.jpg" alt="logodgti" title="logodgti" id="wows2_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/mecanicain.jpg" alt="jquery carousel" title="mecanicain" id="wows2_6"/></a></li>
+		<li><img src="data2/images/normas.jpg" alt="normas" title="normas" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="instala"><span><img src="data2/tooltips/instala.jpg" alt="instala"/>1</span></a>
+		<a href="#" title="instalcion"><span><img src="data2/tooltips/instalcion.jpg" alt="instalcion"/>2</span></a>
+		<a href="#" title="laboratoriocomputo"><span><img src="data2/tooltips/laboratoriocomputo.jpg" alt="laboratoriocomputo"/>3</span></a>
+		<a href="#" title="lc2"><span><img src="data2/tooltips/lc2.jpg" alt="lc2"/>4</span></a>
+		<a href="#" title="logis"><span><img src="data2/tooltips/logis.jpg" alt="logis"/>5</span></a>
+		<a href="#" title="logodgti"><span><img src="data2/tooltips/logodgti.jpg" alt="logodgti"/>6</span></a>
+		<a href="#" title="mecanicain"><span><img src="data2/tooltips/mecanicain.jpg" alt="mecanicain"/>7</span></a>
+		<a href="#" title="normas"><span><img src="data2/tooltips/normas.jpg" alt="normas"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">image slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+      
+        <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Jorge Jesus Vazquez Martinez</h4>
+        <h4>Proyecto Final</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+</div>
+            
+</div>
+
+      </div> 
+     </div>
+           <div data-role="page"id="page8" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Sobre la App</h1>
+      </div>
+      <div>
+      <center>
+      <h3> Plantel: CBTis No. 16 </h3>
+      <h3> Jorge Jesus Vazquez Martinez </h3>
+      <h3> Jose Antonio Gomez Hernandez </h3>
+      <h3> 4to "F" </h3>
+      </center>
+      </div>
+     
+        <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Jorge Jesus Vazquez Martinez</h4>
+        <h4>Proyecto Final</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+</div>
+            
+</div>
+
+      </div> 
+     </div>
+     
+</body>
+</html>
